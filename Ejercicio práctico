@@ -57,3 +57,31 @@ function palindromo(texto) {
         }
             } 
 }
+// punto 5
+//1.1
+let persona={nombre:"Daniel",edad:31}
+class Persona{
+    ObtDetalles(){
+        console.log(persona.nombre)
+        console.log(persona.edad)
+        }
+}
+let persona2= new Persona("Daniel",32)
+persona2.ObtDetalles()
+//1.2
+class persona {
+    constructor(nombre,edad){
+        this.nombre=nombre;
+        this.edad=edad;
+    }
+}
+//2
+class estudiante extends persona {
+constructor(nombre,edad){   
+    this.nombre=nombre;
+    this.edad=edad;
+    this.calificación=[]
+    }
+}
+
+//Bonus
