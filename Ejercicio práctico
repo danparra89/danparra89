@@ -1,0 +1,59 @@
+//Nombre de Estudiante: Daniel Parra
+// Punto 1:
+
+var numero1=5;
+var numero2=8;
+if (numero1<numero2){
+    console.log("número 1 no es mayor a número 2")
+}else{console.log("número 1 es mayor a número 2")
+}
+
+var numero1=5;
+var numero2=8;
+if(numero2>=0){
+    console.log("número 2 es positivo")
+}else{console.log("número 2 es negativo")
+}
+
+var numero1=5;
+var numero2=8;
+if(numero1<=-1){
+    console.log("número 1 es negativo o diferente de cero")
+}else{console.log("Número 1 es cero o positivo")
+}
+
+var numero1=5;
+var numero2=8;
+if(numero1+1<numero2){
+    console.log("Incrementar en una unidad el valor de número 1 no lo hace mayor o igual que el número 2")
+}else{console.log("Incrementar en una unidad el valor de número 1 lo hace mayor o igual que el número 2")
+}
+
+// Punto 2
+
+var numero=8;
+   var factorial=1;
+            for (var i=1; i<=numero;i++) {
+            factorial = factorial*i;
+        }
+    console.log(factorial)
+
+// punto 3
+
+var variable=10
+if(variable%2==0){
+    console.log("Es un numero par")
+}else{
+    console.log("Es un número impar")
+}
+
+// punto 4
+let texto= "larutanosaportootropasonatural";
+let letra=texto.length;
+function palindromo(texto) {
+    for (var i = 0; i <= letra/2;i--) {
+        if (texto[i]==texto[letra-i-1]){
+            console.log("Es un palindromo")
+        }
+            } 
+}
